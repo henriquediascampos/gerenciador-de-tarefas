@@ -23,7 +23,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -57,7 +58,10 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "gerenciador-de-tarefas:build"
+            "browserTarget": "gerenciador-de-tarefas:build",
+            "host": "0.0.0.0",
+            "port": 4201,
+            "publicHost": "teste.patos"
           },
           "configurations": {
             "production": {
