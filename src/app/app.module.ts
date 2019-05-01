@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { appRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { TarefasModule } from './tarefas';
 
 @NgModule({
@@ -11,7 +11,7 @@ import { TarefasModule } from './tarefas';
   ],
   imports: [
     BrowserModule,
-    appRoutingModule,
+    AppRoutingModule,
     TarefasModule
   ],
   providers: [],
